@@ -1,0 +1,59 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-color: #0d526a;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  margin: 0;
+  padding: .5em;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.burping-guy {
+  max-width: 40em;
+  margin: auto;
+}
+
+.did-you-know-svg-2 {
+  max-width: 40em;
+  margin: auto;
+}
+
+.moderation-svg-2 {
+  max-width: 40em;
+  margin: auto;
+}
+
+.calories-svg-2 {
+  max-width: 40em;
+  margin: auto;
+}
