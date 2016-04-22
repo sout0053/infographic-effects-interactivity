@@ -57,3 +57,30 @@ svg {
   max-width: 40em;
   margin: auto;
 }
+
+.calories {
+  opacity: 0;
+  transition: all 300ms ease-in;
+}
+
+.calories-svg-2-animate {
+  opacity: 1;
+}
+
+.know {
+  opacity: 0;
+  transition: all 300ms ease-in;
+}
+
+.know-animate {
+  opacity: 1;
+}
+
+.moderation {
+  opacity: 0;
+  transition: all 300ms ease-in;
+}
+
+.moderation-animate {
+  opacity: 1;
+}
