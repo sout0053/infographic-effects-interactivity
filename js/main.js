@@ -24,4 +24,4 @@ $moderation.waypoint(function (direction) {
   } else {
     $moderation.removeClass('moderation-animate');
   }
-}, { offset: '50%'});
+}, { offset: '70%'});
