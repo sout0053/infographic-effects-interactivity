@@ -84,3 +84,19 @@ svg {
 .moderation-animate {
   opacity: 1;
 }
+
+.bottle-fall {
+  animation: drop 1s forwards;
+}
+
+@keyframes drop {
+
+  0% {
+    stroke-dasharray: 0, 480;
+  }
+
+  100% {
+    stroke-dasharray: 480, 480;
+  }
+
+}

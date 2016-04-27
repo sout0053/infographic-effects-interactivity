@@ -1,6 +1,11 @@
+var $fall = $('.fall')
 var $calories = $('.calories')
 var $know = $('.know')
 var $moderation = $('.moderation')
+
+$('.fall').on('click', function (e) {
+  $('.bottle').addClass('bottle-fall');
+});
 
 $calories.waypoint(function (direction) {
   if (direction == 'down') {
