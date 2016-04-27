@@ -86,7 +86,7 @@ svg {
 }
 
 .bottle-fall {
-  animation: drop 1s forwards;
+  animation: drop 1.5s forwards;
 }
 
 @keyframes drop {
@@ -95,8 +95,13 @@ svg {
     stroke-dasharray: 0, 480;
   }
 
-  100% {
+  50% {
     stroke-dasharray: 480, 480;
+    transform: rotate(5deg)
+  }
+
+  100% {
+    transform: translate(-10px, 1000px);
   }
 
 }
