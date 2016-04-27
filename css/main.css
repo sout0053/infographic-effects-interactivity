@@ -97,7 +97,7 @@ svg {
 
   50% {
     stroke-dasharray: 480, 480;
-    transform: rotate(5deg)
+    transform: rotate(5deg);
   }
 
   100% {
