@@ -13,7 +13,7 @@ $calories.waypoint(function (direction) {
   } else {
     $calories.removeClass('calories-svg-2-animate');
   }
-}, { offset: '50%'});
+}, {offset: '50%'});
 
 $know.waypoint(function (direction) {
   if (direction == 'down') {
@@ -21,7 +21,7 @@ $know.waypoint(function (direction) {
   } else {
     $know.removeClass('know-animate');
   }
-}, { offset: '50%'});
+}, {offset: '50%'});
 
 $moderation.waypoint(function (direction) {
   if (direction == 'down') {
@@ -29,4 +29,4 @@ $moderation.waypoint(function (direction) {
   } else {
     $moderation.removeClass('moderation-animate');
   }
-}, { offset: '70%'});
+}, {offset: '70%'});
