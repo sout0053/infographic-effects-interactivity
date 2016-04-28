@@ -86,22 +86,22 @@ svg {
 }
 
 .bottle-fall {
-  animation: drop 1.5s forwards;
+  -webkit-animation: drop 1.5s forwards;
 }
 
-@keyframes drop {
+@-webkit-keyframes drop {
 
   0% {
-    stroke-dasharray: 0, 480;
+    -webkit-stroke-dasharray: 0, 480;
   }
 
   50% {
-    stroke-dasharray: 480, 480;
-    transform: rotate(5deg);
+    -webkit-stroke-dasharray: 480, 480;
+    -webkit-transform: rotate(5deg);
   }
 
   100% {
-    transform: translate(-10px, 1000px);
+    -webkit-transform: translate(-10px, 1000px);
   }
 
 }
