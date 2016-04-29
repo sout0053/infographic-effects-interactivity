@@ -92,16 +92,33 @@ svg {
 @-webkit-keyframes drop {
 
   0% {
-    -webkit-stroke-dasharray: 0, 480;
+    stroke-dasharray: 0, 480;
   }
 
   50% {
-    -webkit-stroke-dasharray: 480, 480;
+    stroke-dasharray: 480, 480;
     -webkit-transform: rotate(5deg);
   }
 
   100% {
     -webkit-transform: translate(-10px, 1000px);
+  }
+
+}
+
+@keyframes drop {
+
+  0% {
+    stroke-dasharray: 0, 480;
+  }
+
+  50% {
+    stroke-dasharray: 480, 480;
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: translate(-10px, 1000px);
   }
 
 }
